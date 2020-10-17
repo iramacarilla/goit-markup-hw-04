@@ -510,8 +510,10 @@ border: 1px solid var(--brand-color);
         border: 1px solid #EEEEEE;
         background-color: var(--white-color);
         border-radius: 4px;
-       /* box-sizing: border-box;*/
-
+    }
+    .portfolio-item:hover {
+        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.6),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.12)  
     }
     .portfolio-item:nth-child(3n) {
         margin-right: 0;
